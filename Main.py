@@ -6,27 +6,21 @@ class Stack:
 
     def is_empty(self):
         # Write code here
-        return len(self.items)==0
+        return len(self.items) == 0
   
 
     def is_full(self):
-        # Write code here
-        return len(self.items)>=self.size
+        return len(self.items) >= self.size
 
     def push(self, data):
         if not self.is_full():
-            # Write code here
-            def push(self,data):
-                if not self.is_full()
-                   self.items.append(data)
+            self.items.append(data)
 
     def pop(self):
         if not self.is_empty():
-            # Write code here
             self.removed_element = self.items.pop()
 
     def status(self):
-        # Write code here
         for numbers in self.items:
             print (numbers)
 
